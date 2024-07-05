@@ -14,7 +14,8 @@ public class ApiControllerAdvice {
 	public ApiResponse<Object> bindException(BindException e) {
 		return ApiResponse.of(
 			HttpStatus.BAD_REQUEST,
-			e.getBindingResult().getAllErrors().get(0).getDefaultMessage()
+			e.getBindingResult().getAllErrors().get(0).getDefaultMessage(),
+			null
 		);
 	}
 }
