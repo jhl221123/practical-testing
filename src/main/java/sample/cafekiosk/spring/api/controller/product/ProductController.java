@@ -11,8 +11,8 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import sample.cafekiosk.spring.api.ApiResponse;
 import sample.cafekiosk.spring.api.controller.product.request.ProductCreateRequest;
-import sample.cafekiosk.spring.api.controller.product.response.ProductResponse;
 import sample.cafekiosk.spring.api.service.product.ProductService;
+import sample.cafekiosk.spring.api.service.product.response.ProductResponse;
 
 @RestController
 @RequiredArgsConstructor
